@@ -1,0 +1,70 @@
+img{
+  width: 10%;
+  height: 10%;
+  border-radius: 10%;
+  float: left;
+  margin-right: 0px;
+}
+body{
+    background-color: rgba(7, 143, 247, 0.514);
+    text-align: center;
+}
+header{
+    padding: 2px;
+    text-align: center;
+    color:gold;
+    background-attachment: fixed;
+}
+h1{
+  color: rgb(252, 56, 56);
+  text-align: center;
+  text-decoration: underline;
+}
+h2{
+  color:white;
+  font-size: x-large;
+}
+p{
+  color: black;
+  font-size: x-large;
+}
+footer{
+    background-color: rgb(252, 5, 207);
+    padding: 2px;
+    text-align: center;
+}
+h1.footer{
+  color: black;
+}
+ul {
+  list-style-type:none;
+  margin: 5px;
+  padding: 4px;
+  overflow: hidden;
+  background-color:rgb(251, 77, 251);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  display: inline;
+  float: right;
+  margin-left: 1%;
+}
+
+li a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  border-left: 1px solid #bbb;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: blue;
+}
+.active {
+  background-color: red;
+}
